@@ -1,10 +1,10 @@
 module wrongsecrets
 
-go 1.26
+go 1.26.0
 
 toolchain go1.26.4
 
-require github.com/gruntwork-io/terratest v0.56.0
+require github.com/gruntwork-io/terratest v1.0.1
 
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
