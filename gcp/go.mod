@@ -1,10 +1,10 @@
 module wrongsecrets
 
-go 1.26
+go 1.26.0
 
 toolchain go1.26.4
 
-require github.com/gruntwork-io/terratest v0.56.0
+require github.com/gruntwork-io/terratest v1.0.1
 
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
@@ -34,7 +34,6 @@ require (
 	github.com/zclconf/go-cty v1.18.1 // indirect
 	golang.org/x/crypto v0.51.0 // indirect
 	golang.org/x/mod v0.36.0 // indirect
-	golang.org/x/net v0.54.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.44.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
