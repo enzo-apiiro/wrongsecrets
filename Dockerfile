@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjre-debian:25-cds AS builder
+FROM bellsoft/liberica-openjre-debian:27-cds AS builder
 WORKDIR /builder
 
 ARG argBasedVersion="1.13.5"
