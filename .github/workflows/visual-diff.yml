@@ -164,7 +164,7 @@ jobs:
           path: screenshots/
 
       - name: Comment with visual diff
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const comment = `📸 **Visual Diff Available!**

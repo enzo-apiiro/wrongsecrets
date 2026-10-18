@@ -159,7 +159,7 @@ jobs:
       #       }'
 
       - name: Comment PR with build info
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const prNumber = context.issue.number;
@@ -404,7 +404,7 @@ jobs:
           retention-days: 30
 
       - name: Comment with visual diff
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const comment = `📸 **Visual Diff Ready!**

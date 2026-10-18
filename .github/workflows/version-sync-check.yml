@@ -30,7 +30,7 @@ jobs:
 
       - name: Comment on PR if versions are out of sync
         if: failure() && github.event_name == 'pull_request'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const comment = `🚨 **Version Sync Issue Detected**
